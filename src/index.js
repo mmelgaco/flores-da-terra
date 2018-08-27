@@ -1,9 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Main from './Main';
+import Oils from './Oils';
+import DoTerra from './DoTerra';
+import Training from './Training';
+import Business from './Business';
+import Error404 from './Error404';
 import registerServiceWorker from './registerServiceWorker';
-import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter>
+        <Switch>
+            <Route path="/" exact={true} component={Main} />
+            <Route path="/oils" component={Oils} />
+            <Route path="/doterra" component={DoTerra} />
+            <Route path="/training" component={Training} />
+            <Route path="/business" component={Business} />
+            <Route path='*' component={Error404} />
+        </Switch>
+    </ BrowserRouter>
+    , document.getElementById('root'));
+
 registerServiceWorker();

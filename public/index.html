@@ -1,40 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <title>Marina Flores óleos essenciais</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
+    <link href="%PUBLIC_URL%/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
   </head>
-  <body>
+  <body id="top">
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div class="wrapper coloured">
+      <div class="hoc clear"> 
+        <figure id="logos">
+          <ul class="nospace group">
+            <li><!--a href="#"><img src="images/demo/logo.png" alt=""></a--></li>
+            <li><!--a href="#"><img src="images/demo/logo.png" alt=""></a--></li>
+            <li><!--a href="#"><img src="images/demo/logo.png" alt=""></a--></li>
+            <li><!--a href="#"><img src="images/demo/logo.png" alt=""></a--></li>
+            <li><!--a href="#"><img src="images/demo/logo.png" alt=""></a--></li>
+          </ul>
+          <figcaption class="hidden"><a class="btn small" href="#">More &raquo;</a></figcaption>
+        </figure>
+      </div>
+    </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="wrapper row4">
+      <footer id="footer" class="hoc clear"> 
+        <div class="one_quarter first">
+          <h6 class="title">Marina Flores</h6>
+          <ul class="nospace linklist contact">
+            <li><i class="fa fa-map-marker"></i>
+              <address>
+                Belo Horizonte - MG
+              </address>
+            </li>
+            <li><i class="fa fa-phone"></i> (37) 99993-5181<br>
+              (31) 99315-5608</li>
+            <li><i class="fa fa-envelope-o"></i> contato@marinaflores.net</li>
+          </ul>
+        </div>
+        <div class="one_quarter">
+          <h6 class="title">Receba novidades</h6>
+          <p class="btmspace-30">Deixe seus dados e sempre te enviarei novidades e dicas sobre os óleos essenciais!</p>
+          <form method="post" action="#">
+            <fieldset>
+              <legend>Dados:</legend>
+              <input class="btmspace-15" type="text" value="" placeholder="Name">
+              <input class="btmspace-15" type="text" value="" placeholder="Telefone">
+              <input class="btmspace-15" type="text" value="" placeholder="Email">
+              <button type="submit" value="submit">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
+      </footer>
+    </div>
+
+    <div class="wrapper row5">
+      <div id="copyright" class="hoc clear"> 
+        <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="marinaflores.net">marinaflores.net</a></p>
+        <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+      </div>
+    </div>
+
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JAVASCRIPTS -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <!-- IE9 Placeholder Support -->
+    <script src="layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
+
   </body>
+
 </html>
