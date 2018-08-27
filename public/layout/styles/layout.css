@@ -240,6 +240,8 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#82A800;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay2{color:#FFFFFF; background-color:inherit;}
+.overlay2::after{color:inherit;}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#82A800; border-color:#82A800;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -274,7 +276,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#82A800;}
 
 /* Testimonials */
 #testimonials li div{color:#000000; background-color:rgba(255,255,255,.75);}
-#testimonials li div:hover{color:#FFFFFF; background-color:#82A800;}
+#testimonials li div:hover{color:#FFFFFF; background-color:#5d755ebf;}
 
 
 /* Footer */

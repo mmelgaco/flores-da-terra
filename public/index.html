@@ -49,12 +49,13 @@
         <div class="one_quarter">
           <h6 class="title">Receba novidades</h6>
           <p class="btmspace-30">Deixe seus dados e sempre te enviarei novidades e dicas sobre os óleos essenciais!</p>
-          <form method="post" action="#">
+          <form action="https://mailthis.to/contato@marcelograssi.com" method="POST">
             <fieldset>
               <legend>Dados:</legend>
-              <input class="btmspace-15" type="text" value="" placeholder="Name">
-              <input class="btmspace-15" type="text" value="" placeholder="Telefone">
-              <input class="btmspace-15" type="text" value="" placeholder="Email">
+              <input class="btmspace-15" type="text" name="name" value="" placeholder="Nome">
+              <input class="btmspace-15" type="email" name="email" value="" placeholder="Email">
+              <input class="btmspace-15" type="text" name="tel" value="" placeholder="Telefone">
+              <input type="hidden" name="_after" value="https://www.marinaflores.net/">
               <button type="submit" value="submit">Enviar</button>
             </fieldset>
           </form>
