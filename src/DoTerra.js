@@ -75,12 +75,11 @@ export default class DoTerra extends Component {
 
                     <p>
                         Se você busca ter mais saúde e bem estar para você e para a sua família, 
-                        considere usar Óleos Essenciais dōTERRA. Aqui em nosso site, 
-                        você tem acesso a uma grande variedade de Óleos Essenciais Simples, 
-                        Blends de Óleos Essenciais além de Kits e Coleções especiais de óleos 
-                        essenciais e pode efetuar a sua compra de forma muito 
-                        simples por cartão de crédito, através do Pagseguro ou solicitar 
-                        um contato de nossos consultores.
+                        considere usar Óleos Essenciais dōTERRA. 
+                        <br/>Você pode solicitar os óleos por whatsapp: (37) 99993-5181 ou <br/>
+                        <a href="http://bit.ly/fale-com-marina" target="_blank">
+                        <img src="/images/demo/backgrounds/whatsapp.jpg" 
+                                style={{width: '100px'}}/>clique aqui</a>
                     </p>
 
                 </div>

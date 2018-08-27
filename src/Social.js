@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Instafeed from 'instafeed.js';
+import Instafeed from 'instafeed';
 
 class Social extends Component {
 
   componentDidMount() {
-    var feed = new Instafeed({        
-        clientId: '895889ab1e944c8fbe61daee069b2cb1'
+    var instafeed = new Instafeed({
+        accessToken: "6070700562.17babc8.ad9da11601904a75a4a999f83696e8dd",
+        imageTemplate: "<a class=\"instagram\" target=\"_blank\" href=\"{{link}}\"><img src=\"{{image}}\" width=\"{{width}}\" height=\"{{height}}\"></a>"
+
     });
-    feed.run();
+    instafeed.run();
   }
 
   render() {
