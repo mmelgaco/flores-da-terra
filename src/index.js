@@ -9,6 +9,7 @@ import Business from './Business';
 import Error404 from './Error404';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import 'babel-polyfill';
 
 ReactDOM.render(
     <BrowserRouter>
