@@ -10,7 +10,7 @@ export default class Business extends Component {
             <Menu />
             <div className="wrapper row3">
                 <main className="hoc container clear"> 
-                    <div class="content"> 
+                    <div className="content"> 
 
                         <h1>
                             Oportunidade dōTERRA

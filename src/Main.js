@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
 import More from './More';
 import Home from './Home';
 import Testimonials from './Testimonials';
 import Social from './Social';
+import Footer from './Footer';
 
 export default class Main extends Component {
   render() {
@@ -13,6 +13,7 @@ export default class Main extends Component {
         <More />
         <Testimonials />
         <Social />
+        <Footer />
       </React.Fragment>
     );
   }

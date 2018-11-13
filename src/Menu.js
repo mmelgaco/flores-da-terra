@@ -10,6 +10,8 @@ export default class Menu extends Component {
                         <li className="active"><a href="/">Início</a></li>
                         <li><a href="/oils">Sobre os óleos essenciais</a></li>
                         <li><a href="/doterra">Por quê dōTERRA?</a></li>
+                        <li><a href="/register">Cadastre-se</a></li>
+                        <li><a href="http://loja.marinaflores.net" target="_blank">Loja</a></li>
                         <li><a href="/training">Treinamentos</a></li>
                         <li><a href="/business">Tenha seu negócio</a></li>
                     </ul>
