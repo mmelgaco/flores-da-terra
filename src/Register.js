@@ -29,6 +29,7 @@ class More extends Component {
                                 <input className="btmspace-15" type="email" name="email"  placeholder="Email"/>
                                 <input className="btmspace-15" type="text" name="tel"  placeholder="Telefone"/>
                                 <input type="hidden" name="_after" value="https://www.marinaflores.net/"/>
+                                <input type="hidden" name="_subject" value="Novo LEAD"/>
                                 <button type="submit" value="submit">Enviar</button>
                             </fieldset>
                         </form>
