@@ -22,7 +22,7 @@ class More extends Component {
                     <div className="one_half">
                         <h6 className="title">Cadastre-se e saiba mais</h6>
                         <p className="btmspace-30">Deixe seus dados que entrarei em contato em breve!</p>
-                        <form action="https://mailthis.to/contato@marcelograssi.com" method="POST">
+                        <form action="https://mailthis.to/falecom@marinaflores.net" method="POST">
                             <fieldset>
                                 <legend>Dados:</legend>
                                 <input className="btmspace-15" type="text" name="name"  placeholder="Nome"/>
