@@ -25,9 +25,9 @@ class More extends Component {
                         <form action="https://mailthis.to/falecom@marinaflores.net" method="POST">
                             <fieldset>
                                 <legend>Dados:</legend>
-                                <input className="btmspace-15" type="text" name="name"  placeholder="Nome"/>
-                                <input className="btmspace-15" type="email" name="email"  placeholder="Email"/>
-                                <input className="btmspace-15" type="text" name="tel"  placeholder="Telefone"/>
+                                <input className="btmspace-15" type="text" name="name"  placeholder="Nome" required="true"/>
+                                <input className="btmspace-15" type="email" name="email"  placeholder="Email" required="true"/>
+                                <input className="btmspace-15" type="text" name="tel"  placeholder="Telefone" required="true"/>
                                 <input type="hidden" name="_after" value="https://www.marinaflores.net/"/>
                                 <input type="hidden" name="_subject" value="Novo LEAD"/>
                                 <button type="submit" value="submit">Enviar</button>

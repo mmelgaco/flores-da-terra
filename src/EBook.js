@@ -24,9 +24,9 @@ class EBook extends Component {
                         <form action="https://mailthis.to/falecom@marinaflores.net" method="POST">
                             <fieldset>
                                 <legend>Dados:</legend>
-                                <input className="btmspace-15" type="text" name="name"  placeholder="Nome"/>
-                                <input className="btmspace-15" type="email" name="email"  placeholder="Email"/>
-                                <input className="btmspace-15" type="text" name="tel"  placeholder="Telefone"/>
+                                <input className="btmspace-15" type="text" name="name"  placeholder="Nome" required="true"/>
+                                <input className="btmspace-15" type="email" name="email"  placeholder="Email" required="true"/>
+                                <input className="btmspace-15" type="text" name="tel"  placeholder="Telefone" required="true"/>
                                 <input name="consultor" value="Sim" type="radio" />Sou associado doTERRA
                                 <input name="consultor" value="Não" type="radio" />Não sou associado doTERRA
                                 <br/>
